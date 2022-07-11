@@ -1,0 +1,73 @@
+{
+  "extends": "nx/presets/npm.json",
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "cacheableOperations": [
+          "dev",
+          "prebuild",
+          "build",
+          "lint",
+          "clean",
+          "test",
+          "format",
+          "storybook",
+          "changelog",
+          "update-codesandbox",
+          "format:check",
+          "format:write",
+          "jest",
+          "jest-ssr",
+          "typecheck",
+          "update-snapshots",
+          "lib:build",
+          "lib:build-js",
+          "lib:build-styles",
+          "lib:build-types",
+          "lib:pre-publish",
+          "lib:publish",
+          "lib:post-publish",
+          "lib:build-and-publish",
+          "website:build",
+          "website:copy-assets",
+          "website:storybook",
+          "website:deploy",
+          "website:create-and-publish",
+          "prepublish-to-npm",
+          "publish-to-npm",
+          "postpublish-to-npm",
+          "prepublish-prerelease-to-npm",
+          "publish-prerelease-to-npm",
+          "release",
+          "coverage",
+          "coveralls",
+          "test-node",
+          "test-browser",
+          "bundle",
+          "bundle-treeshake",
+          "prepare-tests",
+          "minify-umd",
+          "minify-esm",
+          "module-package-json",
+          "build-umd",
+          "build-esm",
+          "alias-bundle",
+          "doc",
+          "weight",
+          "prepublishOnly"
+        ]
+      }
+    }
+  },
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  },
+  "affected": {
+    "defaultBase": "master"
+  }
+}

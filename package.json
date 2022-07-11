@@ -1,0 +1,28 @@
+{
+  "name": "monorepo_nx",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "clean": "node clean.js",
+    "build": "npx nx run-many --target=build --all",
+    "dev": "npx nx run-many --target=dev --all"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "lint-staged": "^13.0.1",
+    "prettier": "^2.5.0",
+    "simple-git-hooks": "^2.7.0",
+    "nx": "14.4.2",
+    "@nrwl/nx-cloud": "latest",
+    "@nrwl/web": "latest",
+    "@nrwl/next": "latest"
+  },
+  "dependencies": {
+      "yarn-workspace-tools": "^2.0.7"
+    },
+    "packageManager": "yarn@3.2.1"
+}
+

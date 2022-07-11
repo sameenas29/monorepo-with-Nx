@@ -1,0 +1,7 @@
+[35mturbo-ignore:build[0m: cache hit, replaying output [2m62db091406d588d9[0m
+[35mturbo-ignore:build: [0mCLI Building entry: index.js
+[35mturbo-ignore:build: [0mCLI tsup v5.12.9
+[35mturbo-ignore:build: [0mCLI Target: node12
+[35mturbo-ignore:build: [0mCJS Build start
+[35mturbo-ignore:build: [0mCJS ⚡️ Build success in 84ms
+[35mturbo-ignore:build: [0mCJS dist/index.js 133.91 KB

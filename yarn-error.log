@@ -1,0 +1,55 @@
+Arguments: 
+  /Users/sam/.nvm/versions/node/v16.14.0/bin/node /Users/sam/.nvm/versions/node/v16.14.0/bin/yarn install
+
+PATH: 
+  /Users/sam/.yarn/bin:/Users/sam/.nvm/versions/node/v16.14.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  SyntaxError: /Users/sam/Desktop/monorepo-Nx/package.json: Unexpected token } in JSON at position 496
+      at JSON.parse (<anonymous>)
+      at /Users/sam/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/Users/sam/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /Users/sam/.nvm/versions/node/v16.14.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "monorepo-Nx",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "clean": "node clean.js",
+      "build": "npx nx run-many --target=build --all"
+    },
+    "workspaces": [
+      "packages/*",
+      "apps/*"
+    ],
+    "devDependencies": {
+      "lint-staged": "^13.0.1",
+      "prettier": "^2.5.0",
+      "simple-git-hooks": "^2.7.0",
+      "nx": "14.4.2",
+      "@nrwl/nx-cloud": "latest"
+    },
+    "dependencies": {
+        "yarn-workspace-tools": "^2.0.7"
+      },
+      "packageManager": "yarn@3.2.1"
+  }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,14 @@
+[32m@acme/utils:build[0m: cache hit, replaying output [2md62f39ce864716b0[0m
+[32m@acme/utils:build: [0mCLI Building entry: src/index.tsx
+[32m@acme/utils:build: [0mCLI Using tsconfig: tsconfig.json
+[32m@acme/utils:build: [0mCLI tsup v5.12.9
+[32m@acme/utils:build: [0mCLI Target: node12
+[32m@acme/utils:build: [0mCJS Build start
+[32m@acme/utils:build: [0mESM Build start
+[32m@acme/utils:build: [0mESM ⚡️ Build success in 97ms
+[32m@acme/utils:build: [0mCJS ⚡️ Build success in 107ms
+[32m@acme/utils:build: [0mESM dist/index.mjs 711.00 B
+[32m@acme/utils:build: [0mCJS dist/index.js 2.09 KB
+[32m@acme/utils:build: [0mDTS Build start
+[32m@acme/utils:build: [0mDTS ⚡️ Build success in 1882ms
+[32m@acme/utils:build: [0mDTS dist/index.d.ts 734.00 B

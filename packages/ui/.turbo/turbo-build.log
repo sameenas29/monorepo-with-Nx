@@ -1,0 +1,14 @@
+[33mui:build[0m: cache hit, replaying output [2m57e9d366a362ede9[0m
+[33mui:build: [0mCLI Building entry: src/index.tsx
+[33mui:build: [0mCLI Using tsconfig: tsconfig.json
+[33mui:build: [0mCLI tsup v5.12.9
+[33mui:build: [0mCLI Target: node12
+[33mui:build: [0mCJS Build start
+[33mui:build: [0mESM Build start
+[33mui:build: [0mCJS ⚡️ Build success in 60ms
+[33mui:build: [0mESM ⚡️ Build success in 37ms
+[33mui:build: [0mCJS dist/index.js 2.25 KB
+[33mui:build: [0mESM dist/index.mjs 920.00 B
+[33mui:build: [0mDTS Build start
+[33mui:build: [0mDTS ⚡️ Build success in 1767ms
+[33mui:build: [0mDTS dist/index.d.ts 248.00 B
